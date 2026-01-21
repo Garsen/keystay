@@ -46,6 +46,19 @@
 
 ---
 
+## Geographic Coverage Summary
+
+| Company | Coverage | Branches | National Capability |
+|---------|----------|----------|---------------------|
+| **Pro Admin** | **National** | 4 branches | ✅ YES — Can operate nationwide |
+| **Fitzanne Estates** | Gauteng only | 1 (Pretoria) | ⚠️ Gauteng-focused, would need to expand |
+| **Pretor** | Gauteng only | 1 (Pretoria) | ⚠️ Gauteng-focused |
+| **Koalet** | Gauteng only | 1 (Pretoria) | ⚠️ Gauteng-focused |
+
+**Key Finding:** Only **Pro Admin** has confirmed national coverage with 4 branches supporting 19,000+ units across the country. All other targets are Gauteng-focused operations.
+
+---
+
 ## Tier 1: Priority Targets (PPRA Verified, Compliant)
 
 ### 1. Fitzanne Estates (Pty) Ltd ⭐ TOP PRIORITY

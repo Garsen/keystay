@@ -87,13 +87,14 @@ Joint venture between:
 
 ```
 keystay/
-├── README.md                    # This file
-├── venture-plan.md              # Business model and framework
-├── REGULATORY-FRAMEWORK.md      # SA compliance, licensing, legal requirements
-├── PARTNER-ECOSYSTEM.md         # Required partners, money flow, build vs buy
-├── PARTNER-PROSPECTS-GAUTENG.md # Target operating partners in JHB/PTA
-├── COMPETITOR-ANALYSIS.md       # IGrow, EasyProperties, Mafadi analysis
-└── deck/                        # Partner pitch deck (SVG slides)
+├── README.md                         # This file
+├── venture-plan.md                   # Business model and framework
+├── REGULATORY-FRAMEWORK.md           # SA compliance, licensing, legal requirements
+├── PARTNER-ECOSYSTEM.md              # Required partners, money flow, build vs buy
+├── PARTNER-PROSPECTS-GAUTENG.md      # Target operating partners in JHB/PTA
+├── COMPETITOR-ANALYSIS.md            # IGrow, EasyProperties, Mafadi analysis
+├── SHORT-TERM-RENTAL-INTEGRATIONS.md # Airbnb, Booking.com integration guide
+└── deck/                             # Partner pitch deck (SVG slides)
 ```
 
 ## Key Documents
@@ -105,10 +106,58 @@ keystay/
 | [Partner Ecosystem](PARTNER-ECOSYSTEM.md) | Who we need, what they do, how money flows |
 | [Partner Prospects — Gauteng](PARTNER-PROSPECTS-GAUTENG.md) | Target list of potential operating partners in JHB/PTA |
 | [Competitor Analysis](COMPETITOR-ANALYSIS.md) | IGrow, EasyProperties, Mafadi — weaknesses and positioning |
+| [Short-Term Rental Integrations](SHORT-TERM-RENTAL-INTEGRATIONS.md) | Airbnb, Booking.com API and integration requirements |
 
 ## Critical Dependency
 
 **Cannot operate without a PPRA-registered operating partner.** This is the first and most important partner to secure.
+
+---
+
+## Partner Pitch Deck
+
+### 1. Title
+<img src="deck/01-title.svg" alt="Keystay - Property Investment Platform" width="100%">
+
+---
+
+### 2. The Opportunity
+<img src="deck/02-opportunity.svg" alt="The Opportunity - Market size and gap" width="100%">
+
+---
+
+### 3. The Problem
+<img src="deck/03-problem.svg" alt="The Investor's Problem" width="100%">
+
+---
+
+### 4. Our Solution
+<img src="deck/04-solution.svg" alt="Our Solution - Source, Fill, Manage" width="100%">
+
+---
+
+### 5. The Economics
+<img src="deck/05-economics.svg" alt="The Economics - Recurring revenue" width="100%">
+
+---
+
+### 6. The Partnership
+<img src="deck/06-partnership.svg" alt="The Partnership - What each party brings" width="100%">
+
+---
+
+### 7. Ideal Partner Profile
+<img src="deck/07-partner-profile.svg" alt="Ideal Partner Profile" width="100%">
+
+---
+
+### 8. Financial Opportunity
+<img src="deck/08-financials.svg" alt="Financial Opportunity - 3 year projections" width="100%">
+
+---
+
+### 9. Next Steps
+<img src="deck/09-next-steps.svg" alt="Next Steps" width="100%">
 
 ---
 
