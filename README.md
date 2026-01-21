@@ -89,6 +89,7 @@ Joint venture between:
 keystay/
 ├── README.md                         # This file
 ├── venture-plan.md                   # Business model and framework
+├── UNIT-ECONOMICS.md                 # Financial model, fees, break-even, projections
 ├── REGULATORY-FRAMEWORK.md           # SA compliance, licensing, legal requirements
 ├── PARTNER-ECOSYSTEM.md              # Required partners, money flow, build vs buy
 ├── PARTNER-PROSPECTS-GAUTENG.md      # Target operating partners in JHB/PTA
@@ -102,11 +103,12 @@ keystay/
 | Document | Purpose |
 |----------|---------|
 | [Business Model](venture-plan.md) | What we do, how we make money |
+| [Unit Economics](UNIT-ECONOMICS.md) | Fees, costs, break-even, financial projections |
 | [Regulatory Framework](REGULATORY-FRAMEWORK.md) | PPRA, FICA, FAIS, municipal bylaws — everything needed to operate legally |
 | [Partner Ecosystem](PARTNER-ECOSYSTEM.md) | Who we need, what they do, how money flows |
 | [Partner Prospects — Gauteng](PARTNER-PROSPECTS-GAUTENG.md) | Target list of potential operating partners in JHB/PTA |
 | [Competitor Analysis](COMPETITOR-ANALYSIS.md) | IGrow, EasyProperties, Mafadi — weaknesses and positioning |
-| [Short-Term Rental Integrations](SHORT-TERM-RENTAL-INTEGRATIONS.md) | Airbnb, Booking.com API and integration requirements |
+| [Short-Term Rental Integrations](SHORT-TERM-RENTAL-INTEGRATIONS.md) | Airbnb, Booking.com, OTAs, direct booking strategy |
 
 ## Critical Dependency
 

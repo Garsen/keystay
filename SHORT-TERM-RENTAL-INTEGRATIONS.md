@@ -9,278 +9,481 @@
 
 Short-term rental (STR) is a key revenue stream for Keystay investors. To offer this at scale, we need **connectivity** with major Online Travel Agencies (OTAs). This document covers what's required, how to get it, and the recommended approach.
 
-**Bottom Line:** Direct API access to Airbnb and Booking.com is restricted to approved partners. Keystay should integrate via an established **channel manager** or **property management system (PMS)** rather than building direct integrations.
+**Bottom Line:** Direct API access to Airbnb and Booking.com is restricted to approved partners. Keystay should integrate via an established **channel manager** initially, then build toward **direct partnerships** and a **direct booking engine** as we scale.
 
 ---
 
-## Platform Overview
-
-| Platform | Market Position | Commission | API Access |
-|----------|-----------------|------------|------------|
-| **Airbnb** | Dominant in STR | ~3% host fee | Restricted — approved partners only |
-| **Booking.com** | Largest OTA globally | 15-20% | Restricted — paused for new partners |
-| **Vrbo/Expedia** | Strong in US/EU | 5% + 3% payment | Via Expedia Partner Solutions |
-| **LekkeSlaap** | SA-focused | ~15% | Direct integration possible |
-| **SafariNow** | SA tourism | ~15% | Direct integration possible |
-
----
-
-## Airbnb Integration
-
-### API Access Model
-
-Airbnb does **not** offer a public API. Access is restricted to approved "Preferred Software Partners" who must:
-
-1. **Undergo comprehensive security review** — Data security and API quality audit
-2. **Meet technical standards** — Integration, foundational, and performance requirements
-3. **Demonstrate scale** — Airbnb approaches partners based on supply opportunity
-4. **Maintain instant booking** — All API-connected listings must have instant booking enabled
-
-### 2025 Preferred Software Partners
-
-Airbnb announced their [2025 Preferred Software Partners](https://news.airbnb.com/announcing-our-2025-preferred-software-partners/) including:
-
-- Guesty
-- Hostaway
-- Lodgify
-- Hostfully
-- Uplisting
-- Hospitable
-
-### How Keystay Should Connect
+## The Booking Landscape
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                      RECOMMENDED APPROACH                        │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│   KEYSTAY                    CHANNEL MANAGER              OTAs   │
-│   PLATFORM                   (e.g., Guesty)                      │
-│                                                                  │
-│   ┌─────────┐               ┌─────────────┐          ┌────────┐ │
-│   │         │   API/SDK     │             │  Direct  │ Airbnb │ │
-│   │ Keystay │──────────────▶│   Guesty    │─────────▶│        │ │
-│   │ Backend │               │   Hostaway  │          ├────────┤ │
-│   │         │◀──────────────│   Lodgify   │◀─────────│Booking │ │
-│   └─────────┘   Webhooks    │             │          │  .com  │ │
-│                             └─────────────┘          ├────────┤ │
-│                                                      │  Vrbo  │ │
-│                                                      └────────┘ │
-│                                                                  │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           GUEST BOOKING CHANNELS                                 │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │                        GLOBAL OTAs (Commission-Based)                   │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │                                                                         │   │
+│   │  Airbnb          Booking.com       Vrbo/Expedia      Agoda             │   │
+│   │  3% host fee     15-20%            5% + 3%           15-18%            │   │
+│   │  + 14% guest     commission        payment fee       commission        │   │
+│   │                                                                         │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │                    SOUTH AFRICAN OTAs (Local Focus)                     │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │                                                                         │   │
+│   │  LekkeSlaap          SafariNow           TravelGround                   │   │
+│   │  15% commission      ~15% commission     15% commission                 │   │
+│   │  33,000+ properties  Safari/tourism      English LekkeSlaap             │   │
+│   │  Afrikaans market    15+ years           Same backend                   │   │
+│   │                                                                         │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │                    LUXURY / NICHE PLATFORMS                             │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │                                                                         │   │
+│   │  Homes & Villas      Plum Guide          HomeToGo                       │   │
+│   │  by Marriott         Ultra-luxury        Metasearch                     │   │
+│   │  ~20% commission     ~20% commission     Pay-per-click                  │   │
+│   │  High-end only       Curated listings    15M+ listings                  │   │
+│   │                                                                         │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │                    DIRECT BOOKING (Commission-Free)                     │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │                                                                         │   │
+│   │  Own Website              Google Vacation Rentals                       │   │
+│   │  0% commission            Commission-free possible                      │   │
+│   │  You drive traffic        High search visibility                        │   │
+│   │  Own the customer         Requires certified integration                │   │
+│   │                                                                         │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Alternative: iCal Sync (Not Recommended)
+---
 
-For hosts without API access, Airbnb offers iCal calendar sync:
+## Platform Commission Comparison
 
-| Method | Sync Speed | Double-Booking Risk | Features |
-|--------|-----------|---------------------|----------|
-| **API (via partner)** | Real-time | Very low | Full: pricing, availability, messaging |
-| **iCal sync** | 1-24 hours | Higher | Calendar only |
-
-**Recommendation:** iCal is too slow for professional operations. Use a channel manager.
+| Platform | Commission Model | Effective Rate | API Access | Best For |
+|----------|------------------|----------------|------------|----------|
+| **Airbnb** | 3% host + 14% guest | ~3% to host | Restricted | International guests |
+| **Booking.com** | 15-20% commission | 15-20% | Paused | European travellers |
+| **Vrbo** | 5% + 3% payment | ~8% | Via Expedia | Families, groups |
+| **LekkeSlaap** | 15% commission | 15% | Direct possible | SA domestic |
+| **SafariNow** | ~15% commission | 15% | Direct possible | SA tourism |
+| **Direct Booking** | 0% | **0%** | N/A | Repeat guests |
 
 ---
 
-## Booking.com Integration
+## Airbnb Partnership
 
-### Connectivity Partner Program
+### How to Become an Approved Partner
 
-Booking.com offers API access through their [Connectivity Partner Program](https://connectivity.booking.com/s/article/Requirements-for-becoming-a-Booking-com-Connectivity-Partner):
+Airbnb **does not accept open applications**. They identify and approach potential partners based on:
 
-**Current Status (as of 2026):**
-> "Booking.com is pausing integrations with new connectivity providers until further notice" while they update terms and conditions.
+1. **Supply opportunity** — How many listings can you bring?
+2. **Technology strength** — Is your platform robust?
+3. **Customer support capability** — Can you support shared customers?
 
-### API Capabilities
+### Requirements (If Accepted)
 
-The [Booking.com Connectivity APIs](https://developers.booking.com/connectivity/docs) provide:
+| Requirement | Details |
+|-------------|---------|
+| Mutual NDA | Sign Airbnb's standard non-disclosure agreement |
+| API Terms | Agree to Airbnb's API Terms of Service |
+| Data Security Review | Pass comprehensive security audit |
+| API Quality Review | Technical integration must meet standards |
+| Mandatory Features | Implement all required API features within 6 months |
+| Instant Booking | All connected listings must have instant booking enabled |
 
-| Category | Capabilities |
-|----------|--------------|
-| **Content** | Create properties, rooms, rates, policies |
-| **Rates & Availability** | Load inventory, prices, restrictions |
-| **Reservations** | Retrieve bookings, modifications, cancellations |
+### Partnership Tiers
 
-### Technical Requirements
+| Tier | Meaning | Benefits |
+|------|---------|----------|
+| **Preferred** | Meets requirements | Marketing exposure, partner support |
+| **Preferred+** | Exceeds requirements | Financial incentives, early access, priority support |
 
-- **Protocol:** XML (OTA 2003B schema + Booking.com's B.XML extensions)
-- **Authentication:** Partner credentials
-- **PCI Compliance:** Required for reservation data (card details)
-- **PII Compliance:** EU data protection regulations
+### How to Apply
 
-### Partner Expectations
+Visit [airbnb.com/d/preferred-software-partner](https://www.airbnb.com/d/preferred-software-partner) — but expect rejection unless you have significant scale (1,000+ units typically).
 
-Booking.com expects connectivity partners to:
+### Current Approved Partners (2025)
 
-1. Load at least **one full year** of rates and availability
-2. Provide **user-friendly interface** for property owners
-3. **Minimise email fallback** for reservations
-4. Keep up with **continuous API changes**
+Guesty, Hostaway, Lodgify, Smoobu, Hostify, iGMS, Hospitable, Hostfully, Uplisting, and ~24 others.
 
 ---
 
-## Recommended Approach for Keystay
+## Booking.com Partnership
 
-### Option A: White-Label Channel Manager (Recommended for MVP)
+### Current Status
 
-Partner with an established channel manager and white-label their connectivity:
+**Applications are PAUSED** — Booking.com stopped accepting new connectivity partners while updating terms and conditions. No ETA on reopening.
 
-| Provider | Pricing Model | SA Support | Best For |
-|----------|---------------|------------|----------|
-| **Guesty** | Per-listing/month | Yes | Scale operations (20+ units) |
-| **Hostaway** | Per-listing/month | Limited | Mid-market |
-| **Lodgify** | Subscription | Limited | Smaller portfolios |
-| **NightsBridge** | Per-booking | Yes (SA-based) | SA-focused, LekkeSlaap |
+### Requirements (When Available)
 
-**Pros:**
-- Immediate access to Airbnb, Booking.com, Vrbo
-- No API partnership required
-- Proven, tested integrations
-- Ongoing maintenance handled by provider
+| Requirement | Details |
+|-------------|---------|
+| PCI Compliance | Payment Card Industry security standards |
+| PII Compliance | EU data protection (GDPR) |
+| Integration Project | Present your proposed integration |
+| Multi-stage Approval | Technical review before account activation |
+| Ongoing Maintenance | Keep up with continuous API changes |
+| Full Year Availability | Load 12 months of rates/availability |
 
-**Cons:**
-- Per-listing fees reduce margins
-- Less control over user experience
-- Dependency on third party
+### Partnership Tiers
 
-### Option B: Build via Channel Manager API
+| Tier | Benefits |
+|------|----------|
+| **Standard** | Basic technical support |
+| **Advanced** | Achievement awards, self-certification, event invites |
+| **Premier** | Dedicated Business Manager, live chat, innovation fund |
 
-Use a channel manager's API to build Keystay-branded experience:
+### Application Portal
+
+[connect.booking.com](https://connect.booking.com/) — registration currently closed.
+
+---
+
+## Channel Managers (The Middleware)
+
+Channel managers already have API access to major OTAs. Keystay connects to one channel manager to access all platforms.
 
 ```
-Owner Dashboard (Keystay)
-         │
-         ▼
-   Guesty/Hostaway API
-         │
-         ├──▶ Airbnb
-         ├──▶ Booking.com
-         └──▶ Vrbo
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        CHANNEL MANAGER ARCHITECTURE                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│                              ┌──────────────┐                                   │
+│                              │              │                                   │
+│                              │   KEYSTAY    │                                   │
+│                              │   PLATFORM   │                                   │
+│                              │              │                                   │
+│                              └──────┬───────┘                                   │
+│                                     │                                           │
+│                                     │ Single API Integration                    │
+│                                     ▼                                           │
+│                              ┌──────────────┐                                   │
+│                              │              │                                   │
+│                              │   CHANNEL    │                                   │
+│                              │   MANAGER    │                                   │
+│                              │  (Guesty)    │                                   │
+│                              │              │                                   │
+│                              └──────┬───────┘                                   │
+│                                     │                                           │
+│           ┌─────────────┬───────────┼───────────┬─────────────┐                │
+│           │             │           │           │             │                │
+│           ▼             ▼           ▼           ▼             ▼                │
+│      ┌────────┐   ┌─────────┐  ┌────────┐  ┌─────────┐  ┌──────────┐          │
+│      │ Airbnb │   │Booking  │  │  Vrbo  │  │LekkeSlaap│  │ SafariNow│          │
+│      │        │   │  .com   │  │        │  │         │  │          │          │
+│      └────────┘   └─────────┘  └────────┘  └─────────┘  └──────────┘          │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Pros:**
-- Keystay-branded experience
-- Single integration point
-- Access to all major OTAs
+### Top Channel Managers
 
-**Cons:**
-- Development effort required
-- Still paying channel manager fees
-- API learning curve
-
-### Option C: Direct Partnership (Long-Term)
-
-Apply for direct Airbnb/Booking.com partnership once Keystay has scale:
-
-**Requirements:**
-- Significant property portfolio (1,000+ units typically)
-- Dedicated tech team
-- PCI/PII compliance infrastructure
-- Track record of quality service
-
-**Timeline:** 18-24 months minimum to qualify
+| Provider | OTA Connections | Pricing | SA Support | Best For |
+|----------|-----------------|---------|------------|----------|
+| **Guesty** | 200+ channels | $8-15/listing/mo | Yes | Enterprise (50+ units) |
+| **Hostaway** | 100+ channels | $10-20/listing/mo | Limited | Mid-market (20-100) |
+| **Lodgify** | 50+ channels | $5-12/listing/mo | Limited | Small-mid (5-50) |
+| **Rentals United** | 90+ channels | $$$/mo | Yes | Distribution focus |
+| **Smoobu** | 30+ channels | $3-8/listing/mo | No | Budget (<20 units) |
+| **NightsBridge** | SA-focused | R150-300/mo | Yes (SA-based) | SA properties |
+| **Cloudbeds** | 300+ channels | $$$$/mo | Limited | Hotels + vacation |
 
 ---
 
-## South African Platforms
+## Direct Booking Engine
 
-### NightsBridge (SA-Based)
+### What Is It?
 
-NightsBridge is a local channel manager with strong SA OTA connections:
+A direct booking engine is **your own website** where guests book directly with you, cutting out OTAs entirely.
 
-- **LekkeSlaap** — Direct integration
-- **SafariNow** — Direct integration
-- **Booking.com** — Connectivity partner
-- **Airbnb** — Via iCal (limited)
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                       OTA vs DIRECT BOOKING COMPARISON                           │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   VIA AIRBNB (OTA)                        VIA KEYSTAY.CO.ZA (DIRECT)            │
+│   ────────────────                        ──────────────────────────            │
+│                                                                                  │
+│   Guest                                   Guest                                  │
+│     │                                       │                                    │
+│     ▼                                       ▼                                    │
+│   ┌──────────┐                           ┌──────────────┐                       │
+│   │  Airbnb  │                           │ keystay.co.za│                       │
+│   │  Website │                           │   Website    │                       │
+│   └────┬─────┘                           └──────┬───────┘                       │
+│        │                                        │                               │
+│        │ Books property                         │ Books property                │
+│        ▼                                        ▼                               │
+│   ┌──────────┐                           ┌──────────────┐                       │
+│   │  Airbnb  │                           │   Keystay    │                       │
+│   │ Processes│                           │  Processes   │                       │
+│   │ Payment  │                           │   Payment    │                       │
+│   └────┬─────┘                           └──────┬───────┘                       │
+│        │                                        │                               │
+│        │ Takes 3% host fee                      │ Takes 0% commission           │
+│        │ + 14% guest fee                        │                               │
+│        ▼                                        ▼                               │
+│   ┌──────────┐                           ┌──────────────┐                       │
+│   │ Keystay  │                           │   Keystay    │                       │
+│   │ Receives │                           │   Receives   │                       │
+│   │   97%    │                           │    100%      │                       │
+│   └──────────┘                           └──────────────┘                       │
+│                                                                                  │
+│   WHO OWNS THE CUSTOMER?                  WHO OWNS THE CUSTOMER?                │
+│   ──────────────────────                  ──────────────────────                │
+│   Airbnb owns the                         Keystay owns the                      │
+│   relationship. Guest                     relationship. Guest                   │
+│   returns via Airbnb.                     returns direct.                       │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
-**Consideration:** Good for SA-focused properties, less suitable for Airbnb-heavy strategy.
+### Commission Comparison
 
-### LekkeSlaap Direct
+| Booking Method | Commission | Who Owns Customer | Repeat Booking |
+|----------------|------------|-------------------|----------------|
+| Via Airbnb | 3% host + 14% guest | Airbnb | Goes through Airbnb |
+| Via Booking.com | 15-20% | Booking.com | Goes through Booking |
+| Via Direct Website | **0%** | **Keystay** | Direct relationship |
 
-LekkeSlaap offers direct API integration for property managers:
+### When Direct Booking Makes Sense
 
-- Lower commission than Airbnb
-- Strong in SA leisure market
-- Afrikaans-speaking guest base
-- Less tech-sophisticated travellers
+| Scenario | Use OTAs | Use Direct |
+|----------|----------|------------|
+| New property, no reputation | ✅ | ❌ |
+| Building initial guest base | ✅ | ❌ |
+| International travellers | ✅ | ❌ |
+| Repeat guests | ❌ | ✅ |
+| Corporate bookings | ❌ | ✅ |
+| Local market (SA domestic) | Maybe | ✅ |
+| Have marketing budget | Maybe | ✅ |
+
+### The Catch
+
+You need to **drive your own traffic**:
+
+- SEO (takes 6-12 months)
+- Paid ads (Google, Facebook)
+- Email marketing to past guests
+- Social media presence
+- Referral programs
+
+OTAs bring customers to you. A direct booking engine requires you to bring customers to it.
+
+### Direct Booking Tools
+
+| Tool | What It Does | Pricing |
+|------|--------------|---------|
+| **Lodgify** | Website builder + booking engine | $12-32/mo |
+| **Hostaway** | Includes direct booking website | Included |
+| **Guesty** | Booking widget for your site | Included |
+| **Checkfront** | Booking system | $49+/mo |
+| **Custom Build** | Your own platform | Dev cost |
 
 ---
 
-## Cost Analysis
+## Cost Impact Analysis
 
-### Channel Manager Costs (Typical)
+### For a R15,000/month STR Property
 
-| Provider | Monthly Cost (per listing) | Setup | Notes |
-|----------|---------------------------|-------|-------|
-| Guesty | $8-15 | $0 | Volume discounts available |
-| Hostaway | $10-20 | $0 | Includes PMS features |
-| Lodgify | $5-12 | $0 | Annual billing discount |
-| NightsBridge | R150-300 | R500 | SA pricing |
-
-### Impact on Unit Economics
-
-For a R10,000/month rental property:
-
-| Scenario | Gross | Platform Fee | Channel Mgr | Net to Keystay |
-|----------|-------|--------------|-------------|----------------|
-| Long-term only | R10,000 | R0 | R0 | R10,000 |
-| STR via Airbnb | R15,000 | R450 (3%) | R200 | R14,350 |
-| STR via Booking | R15,000 | R2,250 (15%) | R200 | R12,550 |
-
-**Key Insight:** Even with platform and channel manager fees, STR can generate 30-50% more gross revenue than long-term rental.
-
----
-
-## Implementation Roadmap
-
-### Phase 1: MVP (Month 1-3)
-
-1. **Partner with NightsBridge or Guesty** for channel connectivity
-2. **Manual listing management** via partner dashboard
-3. **Focus on LekkeSlaap + Airbnb** (highest SA demand)
-
-### Phase 2: Integration (Month 4-6)
-
-1. **API integration** with channel manager
-2. **Unified dashboard** showing all bookings
-3. **Automated pricing** rules
-
-### Phase 3: Scale (Month 7-12)
-
-1. **Direct Booking.com** partnership application
-2. **Guest communication** automation
-3. **Dynamic pricing** integration (PriceLabs, Wheelhouse)
-
-### Phase 4: Independence (Year 2+)
-
-1. **Airbnb Preferred Partner** application (if scale justifies)
-2. **Own booking engine** for direct bookings
-3. **Reduced dependency** on OTAs
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                    REVENUE BY BOOKING CHANNEL                                    │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   GROSS BOOKING VALUE: R15,000                                                  │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │ VIA AIRBNB                                                              │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │ Gross Revenue           R15,000                                         │   │
+│   │ - Airbnb Host Fee (3%)    (R450)                                        │   │
+│   │ - Channel Manager          (R200)                                        │   │
+│   │ ─────────────────────────────────                                        │   │
+│   │ Net to Keystay          R14,350     (95.7%)                             │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │ VIA BOOKING.COM                                                         │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │ Gross Revenue           R15,000                                         │   │
+│   │ - Booking Commission (15%) (R2,250)                                     │   │
+│   │ - Channel Manager          (R200)                                        │   │
+│   │ ─────────────────────────────────                                        │   │
+│   │ Net to Keystay          R12,550     (83.7%)                             │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────────────┐   │
+│   │ VIA DIRECT BOOKING                                                      │   │
+│   ├─────────────────────────────────────────────────────────────────────────┤   │
+│   │ Gross Revenue           R15,000                                         │   │
+│   │ - OTA Commission             R0                                          │   │
+│   │ - Payment Processing (2.5%)  (R375)                                     │   │
+│   │ ─────────────────────────────────                                        │   │
+│   │ Net to Keystay          R14,625     (97.5%)                             │   │
+│   └─────────────────────────────────────────────────────────────────────────┘   │
+│                                                                                  │
+│   ANNUAL IMPACT (100% occupancy):                                               │
+│   • Airbnb:        R172,200/year                                                │
+│   • Booking.com:   R150,600/year                                                │
+│   • Direct:        R175,500/year  (+R3,300 vs Airbnb, +R24,900 vs Booking)     │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Key Decisions for Keystay
+## Keystay Integration Strategy
+
+### Phase 1: MVP (Month 1-6)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 1: CHANNEL MANAGER DEPENDENCY                                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   ┌─────────┐        ┌──────────────┐        ┌─────────────────────┐           │
+│   │ Keystay │───────▶│  NightsBridge │───────▶│ LekkeSlaap          │           │
+│   │ (Manual)│        │  or Guesty   │        │ Airbnb (via iCal)   │           │
+│   └─────────┘        └──────────────┘        │ SafariNow           │           │
+│                                               └─────────────────────┘           │
+│                                                                                  │
+│   Focus: Prove the model, get properties, learn operations                      │
+│   Scale: 0-20 properties                                                        │
+│   Cost: R200-500/property/month for channel manager                             │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Phase 2: Integration (Month 7-12)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 2: API INTEGRATION                                                         │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   ┌─────────────┐     ┌──────────────┐     ┌─────────────────────────┐         │
+│   │   Keystay   │────▶│   Guesty     │────▶│ Airbnb (full API)       │         │
+│   │  Dashboard  │ API │     API      │     │ Booking.com             │         │
+│   │             │◀────│              │◀────│ Vrbo                    │         │
+│   └─────────────┘     └──────────────┘     │ LekkeSlaap              │         │
+│                                             └─────────────────────────┘         │
+│                                                                                  │
+│   Focus: Unified dashboard, automated sync, dynamic pricing                     │
+│   Scale: 20-100 properties                                                      │
+│   Cost: R150-300/property/month (volume discounts)                              │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Phase 3: Scale (Year 2)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 3: DIRECT PARTNERSHIPS + DIRECT BOOKING                                    │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│                         ┌───────────────────┐                                   │
+│                         │                   │                                   │
+│                         │  KEYSTAY.CO.ZA    │◀──── Direct Bookings (0%)        │
+│                         │  (Direct Booking) │                                   │
+│                         │                   │                                   │
+│                         └─────────┬─────────┘                                   │
+│                                   │                                             │
+│                    ┌──────────────┴──────────────┐                              │
+│                    │                             │                              │
+│                    ▼                             ▼                              │
+│            ┌──────────────┐             ┌──────────────┐                        │
+│            │    Direct    │             │   Channel    │                        │
+│            │  Partnerships│             │   Manager    │                        │
+│            │  (if approved)│            │  (backup)    │                        │
+│            └──────┬───────┘             └──────┬───────┘                        │
+│                   │                            │                                │
+│           ┌───────┴───────┐            ┌───────┴───────┐                       │
+│           ▼               ▼            ▼               ▼                       │
+│      ┌────────┐     ┌─────────┐   ┌────────┐    ┌──────────┐                  │
+│      │ Airbnb │     │Booking  │   │  Vrbo  │    │LekkeSlaap│                  │
+│      │(direct)│     │  .com   │   │        │    │          │                  │
+│      │  API   │     │(direct) │   │        │    │          │                  │
+│      └────────┘     └─────────┘   └────────┘    └──────────┘                  │
+│                                                                                  │
+│   Focus: Reduce OTA dependency, own customer relationships                      │
+│   Scale: 100-500 properties                                                     │
+│   Goal: 30%+ bookings direct                                                    │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+### Phase 4: Independence (Year 3+)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│ PHASE 4: OTA INDEPENDENCE                                                        │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                  │
+│   BOOKING MIX TARGET:                                                           │
+│                                                                                  │
+│   ┌─────────────────────────────────────────────────────────────────┐           │
+│   │                                                                 │           │
+│   │   Direct Bookings          50%  ████████████████████            │           │
+│   │   (keystay.co.za)                                               │           │
+│   │                                                                 │           │
+│   │   Airbnb                   30%  ████████████                    │           │
+│   │   (for international)                                           │           │
+│   │                                                                 │           │
+│   │   LekkeSlaap/Other         20%  ████████                        │           │
+│   │   (for SA domestic)                                             │           │
+│   │                                                                 │           │
+│   └─────────────────────────────────────────────────────────────────┘           │
+│                                                                                  │
+│   At this stage:                                                                │
+│   • Keystay is a recognised brand                                               │
+│   • Repeat guests book direct                                                   │
+│   • Corporate/business accounts book direct                                     │
+│   • OTAs used only for discovery                                                │
+│   • Significantly improved margins                                              │
+│                                                                                  │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Key Decisions Summary
 
 | Decision | Options | Recommendation |
 |----------|---------|----------------|
-| Channel manager | Guesty / Hostaway / NightsBridge | **Guesty** (best Airbnb integration) |
-| Primary OTA | Airbnb / Booking.com | **Airbnb** (lower commission, higher rates) |
-| Secondary OTA | Booking.com / LekkeSlaap | **LekkeSlaap** (SA-focused, lower commission) |
-| Build vs Buy | Custom integration / White-label | **White-label first**, build later |
+| Initial channel manager | Guesty / NightsBridge | **NightsBridge** for MVP (SA-focused, affordable) |
+| Primary OTA | Airbnb / Booking.com | **Airbnb** (lowest commission, best STR fit) |
+| Secondary OTA | Booking.com / LekkeSlaap | **LekkeSlaap** (SA domestic, lower commission) |
+| Direct booking | Build / Buy | **Buy** (Lodgify or Guesty widget) initially |
+| Partnership applications | Now / Later | **Later** (need scale first: 500+ units) |
 
 ---
 
 ## Sources
 
-- [Airbnb API Guide 2026](https://bnbmanagementlondon.co.uk/airbnb-api/)
-- [Airbnb 2025 Preferred Software Partners](https://news.airbnb.com/announcing-our-2025-preferred-software-partners/)
-- [Booking.com Connectivity APIs](https://developers.booking.com/connectivity/docs)
-- [Booking.com Partner Requirements](https://connectivity.booking.com/s/article/Requirements-for-becoming-a-Booking-com-Connectivity-Partner)
-- [Elfsight: How to use Airbnb API](https://elfsight.com/blog/how-to-get-and-use-airbnb-api-partnership-and-integration/)
-- [Elfsight: How to use Booking.com API](https://elfsight.com/blog/how-to-get-and-use-booking-com-api-partnership-and-integration/)
+- [Airbnb Preferred Software Partner](https://www.airbnb.com/d/preferred-software-partner)
+- [Airbnb 2025 Partners Announcement](https://news.airbnb.com/announcing-our-2025-preferred-software-partners/)
+- [Booking.com Connectivity Requirements](https://connectivity.booking.com/s/article/Requirements-for-becoming-a-Booking-com-Connectivity-Partner)
+- [Booking.com Connectivity Portal](https://connect.booking.com/)
+- [Best Channel Managers 2025 - Hostaway](https://www.hostaway.com/blog/best-vacation-rental-channel-managers/)
+- [Hotel Booking Sites SA - RoomRaccoon](https://roomraccoon.co.za/blog/hotel-booking-sites-south-africa/)
+- [Airbnb Alternatives - Truvi](https://truvi.com/blog/airbnb-alternatives/)
+- [LekkeSlaap](https://www.lekkeslaap.co.za/)
+- [SafariNow](https://www.safarinow.com/)
 
 ---
 
-*Document version: 1.0*
+*Document version: 2.0*
 *Last updated: 21 January 2026*
