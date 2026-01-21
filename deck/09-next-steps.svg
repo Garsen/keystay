@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Decorative curves -->
+  <path d="M0,800 Q400,750 800,820 T1600,780 T1920,800" fill="none" stroke="#14B8A6" stroke-width="2" opacity="0.3"/>
+  <path d="M0,850 Q500,800 1000,870 T1920,850" fill="none" stroke="#14B8A6" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Slide Title -->
+  <text x="100" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Next Steps</text>
+  <rect x="100" y="140" width="200" height="4" fill="url(#accentGradient)" rx="2"/>
+
+  <!-- Timeline -->
+  <!-- Step 1 -->
+  <circle cx="300" cy="320" r="40" fill="#14B8A6"/>
+  <text x="300" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="400" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Exploratory Conversation</text>
+  <text x="400" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Discuss the opportunity, assess mutual fit</text>
+
+  <line x1="300" y1="370" x2="300" y2="440" stroke="#14B8A6" stroke-width="3"/>
+
+  <!-- Step 2 -->
+  <circle cx="300" cy="480" r="40" fill="#14B8A6"/>
+  <text x="300" y="492" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="400" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Due Diligence</text>
+  <text x="400" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Verify credentials, review background, align on vision</text>
+
+  <line x1="300" y1="530" x2="300" y2="600" stroke="#14B8A6" stroke-width="3"/>
+
+  <!-- Step 3 -->
+  <circle cx="300" cy="640" r="40" fill="#14B8A6"/>
+  <text x="300" y="652" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="400" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Term Sheet</text>
+  <text x="400" y="670" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Agree commercial terms, equity structure, contributions</text>
+
+  <line x1="300" y1="690" x2="300" y2="760" stroke="#14B8A6" stroke-width="3"/>
+
+  <!-- Step 4 -->
+  <circle cx="300" cy="800" r="40" fill="#22C55E"/>
+  <text x="300" y="812" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="400" y="790" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Launch</text>
+  <text x="400" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Entity formation, operational setup, first properties</text>
+
+  <!-- Right side: What we're looking for -->
+  <rect x="1000" y="260" width="800" height="500" fill="#1E293B" rx="16"/>
+
+  <text x="1400" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF" text-anchor="middle">We're Looking For</text>
+  <rect x="1200" y="350" width="400" height="3" fill="url(#accentGradient)" rx="1"/>
+
+  <circle cx="1060" cy="430" r="6" fill="#14B8A6"/>
+  <text x="1095" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">Someone who sees the opportunity</text>
+
+  <circle cx="1060" cy="500" r="6" fill="#14B8A6"/>
+  <text x="1095" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">Operational experience in property</text>
+
+  <circle cx="1060" cy="570" r="6" fill="#14B8A6"/>
+  <text x="1095" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">Ambition to build, not just operate</text>
+
+  <circle cx="1060" cy="640" r="6" fill="#14B8A6"/>
+  <text x="1095" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">Integrity and long-term thinking</text>
+
+  <circle cx="1060" cy="710" r="6" fill="#14B8A6"/>
+  <text x="1095" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">Willingness to invest alongside us</text>
+
+  <!-- CTA -->
+  <rect x="1000" y="820" width="800" height="100" fill="#14B8A6" fill-opacity="0.2" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="1400" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6" text-anchor="middle">Interested? Let's talk.</text>
+
+  <!-- Footer -->
+  <text x="100" y="1000" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569">Ampersand Insights</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569" text-anchor="end">9</text>
+</svg>

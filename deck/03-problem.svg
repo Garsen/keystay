@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Slide Title -->
+  <text x="100" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">The Investor's Problem</text>
+  <rect x="100" y="140" width="380" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Buying a property means buying a job</text>
+
+  <!-- Left side: What they want -->
+  <rect x="100" y="260" width="800" height="100" fill="#22C55E" fill-opacity="0.15" rx="12" stroke="#22C55E" stroke-width="2"/>
+  <text x="500" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#22C55E" text-anchor="middle">What Investors Want</text>
+
+  <circle cx="150" cy="420" r="6" fill="#22C55E"/>
+  <text x="180" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Passive monthly income</text>
+
+  <circle cx="150" cy="490" r="6" fill="#22C55E"/>
+  <text x="180" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Capital appreciation over time</text>
+
+  <circle cx="150" cy="560" r="6" fill="#22C55E"/>
+  <text x="180" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Asset they control and own</text>
+
+  <circle cx="150" cy="630" r="6" fill="#22C55E"/>
+  <text x="180" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Minimal time and hassle</text>
+
+  <!-- Right side: What they get -->
+  <rect x="1020" y="260" width="800" height="100" fill="#EF4444" fill-opacity="0.15" rx="12" stroke="#EF4444" stroke-width="2"/>
+  <text x="1420" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#EF4444" text-anchor="middle">What They Actually Get</text>
+
+  <circle cx="1070" cy="420" r="6" fill="#EF4444"/>
+  <text x="1100" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Find tenants themselves</text>
+
+  <circle cx="1070" cy="490" r="6" fill="#EF4444"/>
+  <text x="1100" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Chase rent payments</text>
+
+  <circle cx="1070" cy="560" r="6" fill="#EF4444"/>
+  <text x="1100" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Handle maintenance calls</text>
+
+  <circle cx="1070" cy="630" r="6" fill="#EF4444"/>
+  <text x="1100" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Deal with problem tenants</text>
+
+  <circle cx="1070" cy="700" r="6" fill="#EF4444"/>
+  <text x="1100" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#FFFFFF">Manage evictions and legal</text>
+
+  <!-- Divider line -->
+  <line x1="950" y1="380" x2="950" y2="750" stroke="#475569" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <!-- Bottom insight -->
+  <rect x="100" y="820" width="1720" height="140" fill="#1E293B" rx="16"/>
+  <text x="960" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF" text-anchor="middle">The gap: Investors can buy property, but nobody helps them operate it</text>
+  <text x="960" y="930" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#9CA3AF" text-anchor="middle">Current options force a choice: DIY hassle OR give up ownership (fractional)</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569" text-anchor="end">3</text>
+</svg>

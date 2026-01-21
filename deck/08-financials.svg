@@ -1,0 +1,81 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Slide Title -->
+  <text x="100" y="120" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Financial Opportunity</text>
+  <rect x="100" y="140" width="340" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="195" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">3-year projections (conservative)</text>
+
+  <!-- Table header -->
+  <rect x="100" y="250" width="1720" height="60" fill="#14B8A6" fill-opacity="0.2" rx="8"/>
+  <text x="350" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Metric</text>
+  <text x="700" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Year 1</text>
+  <text x="1050" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Year 2</text>
+  <text x="1400" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Year 3</text>
+
+  <!-- Row 1 -->
+  <rect x="100" y="320" width="1720" height="60" fill="#1E293B" rx="0"/>
+  <text x="350" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Properties Sourced</text>
+  <text x="700" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">20</text>
+  <text x="1050" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">50</text>
+  <text x="1400" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">100</text>
+
+  <!-- Row 2 -->
+  <rect x="100" y="390" width="1720" height="60" fill="#0F172A" rx="0"/>
+  <text x="350" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Properties Under Management</text>
+  <text x="700" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">20</text>
+  <text x="1050" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">65</text>
+  <text x="1400" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">150</text>
+
+  <!-- Row 3 -->
+  <rect x="100" y="460" width="1720" height="60" fill="#1E293B" rx="0"/>
+  <text x="350" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Total Revenue</text>
+  <text x="700" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">R804k</text>
+  <text x="1050" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">R2.3M</text>
+  <text x="1400" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">R5.0M</text>
+
+  <!-- Row 4 -->
+  <rect x="100" y="530" width="1720" height="60" fill="#0F172A" rx="0"/>
+  <text x="350" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">EBITDA</text>
+  <text x="700" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#EF4444" text-anchor="middle">(R496k)</text>
+  <text x="1050" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">R658k</text>
+  <text x="1400" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">R2.2M</text>
+
+  <!-- Row 5 -->
+  <rect x="100" y="600" width="1720" height="60" fill="#1E293B" rx="0"/>
+  <text x="350" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">EBITDA Margin</text>
+  <text x="700" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#EF4444" text-anchor="middle">-62%</text>
+  <text x="1050" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">29%</text>
+  <text x="1400" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#22C55E" text-anchor="middle">44%</text>
+
+  <!-- Key metrics boxes -->
+  <rect x="100" y="720" width="540" height="140" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="370" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#14B8A6" text-anchor="middle">Mid-Y2</text>
+  <text x="370" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Breakeven (~40 properties)</text>
+
+  <rect x="690" y="720" width="540" height="140" fill="#22C55E" fill-opacity="0.1" rx="12" stroke="#22C55E" stroke-width="2"/>
+  <text x="960" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#22C55E" text-anchor="middle">R1M</text>
+  <text x="960" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Seed funding required</text>
+
+  <rect x="1280" y="720" width="540" height="140" fill="#3B82F6" fill-opacity="0.1" rx="12" stroke="#3B82F6" stroke-width="2"/>
+  <text x="1550" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#3B82F6" text-anchor="middle">50/50</text>
+  <text x="1550" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Equity split</text>
+
+  <!-- Bottom note -->
+  <text x="960" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B" text-anchor="middle">Recurring revenue from management fees creates compounding value and premium valuation multiples</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569" text-anchor="end">8</text>
+</svg>

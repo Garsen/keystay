@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Decorative curves -->
+  <path d="M0,800 Q400,750 800,820 T1600,780 T1920,800" fill="none" stroke="#14B8A6" stroke-width="2" opacity="0.3"/>
+  <path d="M0,850 Q500,800 1000,870 T1920,850" fill="none" stroke="#14B8A6" stroke-width="1.5" opacity="0.2"/>
+  <path d="M0,900 Q600,850 1200,920 T1920,900" fill="none" stroke="#22C55E" stroke-width="1" opacity="0.15"/>
+
+  <!-- Decorative nodes -->
+  <circle cx="200" cy="200" r="4" fill="#14B8A6" opacity="0.4"/>
+  <circle cx="1750" cy="150" r="6" fill="#22C55E" opacity="0.3"/>
+  <circle cx="1600" cy="300" r="3" fill="#14B8A6" opacity="0.5"/>
+  <circle cx="300" cy="400" r="5" fill="#22C55E" opacity="0.25"/>
+
+  <!-- Main Title -->
+  <text x="960" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="96" font-weight="700" fill="#FFFFFF" text-anchor="middle">Keystay</text>
+  <text x="960" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="40" fill="#9CA3AF" text-anchor="middle">Property Investment Platform</text>
+
+  <!-- Accent underline -->
+  <rect x="710" y="500" width="500" height="6" fill="url(#accentGradient)" rx="3"/>
+
+  <!-- Subtitle -->
+  <text x="960" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#9CA3AF" text-anchor="middle">Joint Venture Opportunity</text>
+
+  <!-- Tagline -->
+  <text x="960" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#14B8A6" text-anchor="middle">"We don't sell properties. We sell passive income."</text>
+
+  <!-- Footer -->
+  <text x="100" y="1000" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569">Ampersand Insights</text>
+  <text x="1820" y="1000" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#475569" text-anchor="end">January 2026</text>
+</svg>
