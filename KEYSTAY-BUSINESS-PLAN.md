@@ -25,26 +25,7 @@ South Africa has 220,000+ individuals seeking rental property investment, but cu
 
 ### The Product
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              KEYSTAY PLATFORM                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌──────────┐ │
-│   │  PROPERTY   │────▶│   TENANT    │────▶│  PROPERTY   │────▶│  OWNER   │ │
-│   │  SOURCING   │     │  PLACEMENT  │     │ MANAGEMENT  │     │DASHBOARD │ │
-│   └─────────────┘     └─────────────┘     └─────────────┘     └──────────┘ │
-│                                                                             │
-│   Find & acquire      Place tenants       Manage ongoing      Transparent  │
-│   investment          (long-term or       operations          reporting &  │
-│   properties          short-term/Airbnb)  (rent, repairs,     visibility   │
-│                                           tenant relations)                │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│   PROPOSITION: You get the keys. We handle everything else.                 │
-│                Income flows to you monthly.                                 │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/01-business-model-flow.svg" alt="Keystay Business Model" width="100%">
 
 ### The Business Model
 
@@ -83,34 +64,7 @@ South Africa's property investment market is characterised by:
 
 ### Competitive Landscape
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         COMPETITIVE POSITIONING                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                             HIGH INTEGRATION                                │
-│                                   ▲                                         │
-│                                   │                                         │
-│                    ┌──────────────┼──────────────┐                         │
-│                    │              │              │                         │
-│                    │   IGrow      │   KEYSTAY   │                         │
-│                    │  (broken     │  (our       │                         │
-│                    │   execution) │   position) │                         │
-│                    │              │              │                         │
-│    POOR           │              │              │           EXCELLENT     │
-│    SERVICE ◀──────┼──────────────┼──────────────┼──────────▶ SERVICE     │
-│                    │              │              │                         │
-│                    │   Mafadi     │              │                         │
-│                    │  (scale,     │              │                         │
-│                    │   no tech)   │              │                         │
-│                    │              │              │                         │
-│                    └──────────────┼──────────────┘                         │
-│                                   │                                         │
-│                             LOW INTEGRATION                                 │
-│                    (Individual agents, DIY management)                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/05-competitive-positioning.svg" alt="Competitive Positioning" width="100%">
 
 ### Competitor Weaknesses
 
@@ -189,31 +143,7 @@ Ongoing management of tenanted properties for hands-off ownership.
 
 Technology platform giving owners real-time visibility into their portfolio.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           OWNER DASHBOARD                                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐      │
-│   │ PORTFOLIO VIEW    │  │ INCOME TRACKING   │  │ PERFORMANCE       │      │
-│   │                   │  │                   │  │                   │      │
-│   │ All properties    │  │ Rent received     │  │ Actual vs         │      │
-│   │ at a glance       │  │ Expenses          │  │ projected yield   │      │
-│   │ Status indicators │  │ Net income        │  │ Benchmark data    │      │
-│   └───────────────────┘  └───────────────────┘  └───────────────────┘      │
-│                                                                             │
-│   ┌───────────────────┐  ┌───────────────────┐  ┌───────────────────┐      │
-│   │ TAX REPORTING     │  │ MAINTENANCE       │  │ DOCUMENTS         │      │
-│   │                   │  │                   │  │                   │      │
-│   │ Tax-ready         │  │ History           │  │ Leases            │      │
-│   │ summaries         │  │ Pending jobs      │  │ Statements        │      │
-│   │ Deductibles       │  │ Costs             │  │ Certificates      │      │
-│   └───────────────────┘  └───────────────────┘  └───────────────────┘      │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-**This is Ampersand's core contribution** — the technology layer that enables transparency and differentiates Keystay from manual operators.
+<img src="diagrams/06-owner-dashboard.svg" alt="Owner Dashboard" width="100%">
 
 ---
 
@@ -221,35 +151,7 @@ Technology platform giving owners real-time visibility into their portfolio.
 
 ### Revenue Streams
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           REVENUE ARCHITECTURE                              │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   ONCE-OFF FEES                    RECURRING FEES                           │
-│   ─────────────                    ──────────────                           │
-│   ┌─────────────────┐              ┌─────────────────┐                     │
-│   │ Sourcing Fee    │              │ Management Fee  │                     │
-│   │ 3% of purchase  │              │ 8% (LT) / 15%   │                     │
-│   │ R30k per R1M    │              │ (STR) monthly   │                     │
-│   └─────────────────┘              └─────────────────┘                     │
-│                                                                             │
-│   ┌─────────────────┐              ┌─────────────────┐                     │
-│   │ Placement Fee   │              │ Maintenance     │                     │
-│   │ 1 month rent    │              │ Coordination    │                     │
-│   │ R8k on R8k rent │              │ 15% markup      │                     │
-│   └─────────────────┘              └─────────────────┘                     │
-│                                                                             │
-│   ┌─────────────────┐                                                      │
-│   │ Renewal Fee     │                                                      │
-│   │ 50% of          │                                                      │
-│   │ placement       │                                                      │
-│   └─────────────────┘                                                      │
-│                                                                             │
-│   HIGH MARGIN, CASH FLOW SPIKES    HIGH MARGIN, PREDICTABLE GROWTH         │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+Revenue comes from two categories: **once-off fees** (sourcing, placement) that spike cash flow, and **recurring fees** (management, maintenance) that compound over time.
 
 ### Unit Economics: The Reference Property
 
@@ -286,29 +188,14 @@ Technology platform giving owners real-time visibility into their portfolio.
 
 ### Break-Even Analysis
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           BREAK-EVEN ANALYSIS                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   Monthly Fixed Costs                                    R15,000            │
-│                                                                             │
-│   Recurring Revenue per Property (blended)               R1,131/month       │
-│                                                                             │
-│   Break-even (recurring only)                            14 properties      │
-│                                                                             │
-│   ───────────────────────────────────────────────────────────────────────   │
-│                                                                             │
-│   WITH SOURCING FEES (2 new properties/month):                              │
-│                                                                             │
-│   Monthly once-off revenue                               R76,000            │
-│   (2 x R30k sourcing + 2 x R8k placement)                                  │
-│                                                                             │
-│   Result: PROFITABLE FROM MONTH 1                                           │
-│   (Once-off fees cover costs during growth phase)                          │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+| Metric | Value |
+|--------|-------|
+| Monthly fixed costs | R15,000 |
+| Recurring revenue per property (blended) | R1,131/month |
+| Break-even (recurring only) | 14 properties |
+| **With sourcing fees (2 properties/month)** | **Profitable from Month 1** |
+
+Once-off fees (R76k/month from 2 new properties) cover fixed costs during the growth phase.
 
 ---
 
@@ -337,36 +224,7 @@ Keystay requires two distinct capabilities that rarely exist in one organisation
 
 ### Proposed Structure
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       KEYSTAY JOINT VENTURE STRUCTURE                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   AMPERSAND INSIGHTS (50%)          OPERATING PARTNER (50%)                │
-│   ─────────────────────────         ──────────────────────                 │
-│                                                                             │
-│   Brings:                           Brings:                                 │
-│   • Technology platform             • PPRA registration                    │
-│   • Systems & processes             • Trust account                        │
-│   • Customer acquisition            • Deal flow / property pipeline        │
-│   • Strategy & positioning          • Operational expertise                │
-│   • Shared startup costs            • Contractor networks                  │
-│                                     • Shared startup costs                 │
-│                                                                             │
-│   Focus:                            Focus:                                  │
-│   • Owner dashboard                 • Property sourcing                    │
-│   • Marketing & leads               • Tenant placement                     │
-│   • Reporting & analytics           • Property management                  │
-│   • Business development            • Compliance                           │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                              KEYSTAY (PTY) LTD                              │
-│                                                                             │
-│                          Equal equity, shared governance                    │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/07-jv-structure.svg" alt="JV Structure" width="100%">
 
 ### Revenue Split (Proposed)
 
@@ -411,59 +269,6 @@ This is not a "nice to have" — it is regulatory law. The partner brings the li
 
 ### Ideal Partner Characteristics
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       IDEAL OPERATING PARTNER PROFILE                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   MUST HAVE (Non-Negotiable)                                                │
-│   ─────────────────────────                                                 │
-│                                                                             │
-│   ✓ PPRA-registered with valid FFC                                         │
-│   ✓ Trust account with IRBA auditor appointed                              │
-│   ✓ Current financial reports (2024/2025)                                  │
-│   ✓ Property management operational capability                             │
-│   ✓ Minimum 5 years industry experience                                    │
-│                                                                             │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   STRONG PREFERENCE                                                         │
-│   ─────────────────                                                         │
-│                                                                             │
-│   ✓ NATIONAL CAPABILITY or willingness to build partner network            │
-│     - Can operate beyond Gauteng (Cape Town, KZN, coastal regions)         │
-│     - Receptive to onboarding regional partners under Keystay umbrella     │
-│     - Understands that scale requires geographic expansion                 │
-│                                                                             │
-│   ✓ 50-500 properties under management                                     │
-│     - Big enough to be credible                                            │
-│     - Small enough to need what we bring                                   │
-│                                                                             │
-│   ✓ Low technology capability                                              │
-│     - Won't try to build the platform themselves                          │
-│     - Needs Ampersand for tech differentiation                            │
-│                                                                             │
-│   ✓ Limited investor acquisition pipeline                                  │
-│     - Needs Ampersand for marketing and lead generation                   │
-│     - Sees investor sourcing as new revenue stream                        │
-│                                                                             │
-│   ✓ Owner-operated or small principal team                                 │
-│     - Can make partnership decisions quickly                              │
-│     - Not bound by corporate bureaucracy                                  │
-│                                                                             │
-│   ✓ Ambitious but stuck                                                    │
-│     - Wants to grow but lacks the tools                                   │
-│     - Sees technology as the missing piece                                │
-│                                                                             │
-│   ✓ Good (or neutral) reputation                                           │
-│     - Not tainted by public complaints                                    │
-│     - Service issues should be isolated, not systemic                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Ideal Partner Profile
-
 <img src="diagrams/04-ideal-partner-profile.svg" alt="Ideal Partner Profile" width="100%">
 
 ### National Expansion Requirement
@@ -485,38 +290,6 @@ This is not a "nice to have" — it is regulatory law. The partner brings the li
 ### Partner Network Model (For National Expansion)
 
 <img src="diagrams/03-partner-network.svg" alt="Partner Network Model" width="100%">
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      KEYSTAY PARTNER NETWORK MODEL                          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                           ┌─────────────────┐                               │
-│                           │    KEYSTAY HQ   │                               │
-│                           │                 │                               │
-│                           │  • Platform     │                               │
-│                           │  • Brand        │                               │
-│                           │  • Marketing    │                               │
-│                           │  • Standards    │                               │
-│                           └────────┬────────┘                               │
-│                                    │                                        │
-│              ┌─────────────────────┼─────────────────────┐                 │
-│              │                     │                     │                 │
-│              ▼                     ▼                     ▼                 │
-│   ┌─────────────────┐   ┌─────────────────┐   ┌─────────────────┐         │
-│   │ GAUTENG PARTNER │   │  CAPE TOWN      │   │    KZN          │         │
-│   │ (Operating JV)  │   │  AFFILIATE      │   │  AFFILIATE      │         │
-│   │                 │   │                 │   │                 │         │
-│   │ • PPRA licence  │   │ • PPRA licence  │   │ • PPRA licence  │         │
-│   │ • Operations    │   │ • Local ops     │   │ • Local ops     │         │
-│   │ • Deal flow     │   │ • Deal flow     │   │ • Deal flow     │         │
-│   └─────────────────┘   └─────────────────┘   └─────────────────┘         │
-│                                                                             │
-│   MODEL A: JV Partner     MODEL B: Licensed Affiliates                     │
-│   (50% equity in HQ)      (Fee-based, use Keystay platform & brand)        │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
 
 **Affiliate Model for Expansion:**
 
@@ -560,40 +333,7 @@ Based on PPRA verification and research:
 
 ### Keystay vs Competitors
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      KEYSTAY COMPETITIVE ADVANTAGES                         │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   vs IGrow                          vs EasyProperties                       │
-│   ────────                          ─────────────────                       │
-│                                                                             │
-│   ✓ No lock-in                      ✓ REAL ownership                       │
-│     (your property, your choice)      (title deed, not shares)             │
-│                                                                             │
-│   ✓ Transparent fees                ✓ Liquid exit                          │
-│     (know what you pay, when)         (sell your property anytime)         │
-│                                                                             │
-│   ✓ Real-time communication         ✓ Full or fractional                   │
-│     (dashboard, proactive updates)    (choose your entry point)            │
-│                                                                             │
-│   ✓ Owner in control                                                       │
-│     (decisions are yours)                                                  │
-│                                                                             │
-│   vs Mafadi                         vs Traditional Agents                  │
-│   ─────────                         ─────────────────────                  │
-│                                                                             │
-│   ✓ Technology-enabled              ✓ End-to-end relationship              │
-│     (not Excel spreadsheets)          (purchase to passive income)         │
-│                                                                             │
-│   ✓ Proactive service               ✓ Ongoing support                      │
-│     (not reactive spaza shop)         (not disappear after sale)           │
-│                                                                             │
-│   ✓ Investor sourcing               ✓ Property management                  │
-│     (they only manage)                (they only sell)                     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/08-competitive-advantages.svg" alt="Competitive Advantages" width="100%">
 
 ### Six Pillars of Differentiation
 
@@ -643,32 +383,7 @@ Based on PPRA verification and research:
 
 ### Money Flow Compliance
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                      COMPLIANT MONEY FLOW                                   │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│   PROPERTY SALE                                                             │
-│   ─────────────                                                             │
-│   Buyer → Conveyancer Trust A/C → Seller + Transfer Duty (SARS)            │
-│                          ↓                                                  │
-│                   Keystay Sourcing Fee → Keystay Trust A/C                 │
-│                                                                             │
-│   TENANT DEPOSIT                                                            │
-│   ──────────────                                                            │
-│   Tenant → Keystay Trust A/C (interest-bearing, per Rental Housing Act)    │
-│                                                                             │
-│   MONTHLY RENT                                                              │
-│   ────────────                                                              │
-│   Tenant → Keystay Trust A/C → Management Fee → Keystay Operating A/C      │
-│                             → Net Rent → Owner Bank A/C                    │
-│                                                                             │
-│   MAINTENANCE                                                               │
-│   ───────────                                                               │
-│   Owner A/C → Keystay Trust A/C → Contractor (+ 15% markup to Keystay)     │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/09-money-flow.svg" alt="Compliant Money Flow" width="100%">
 
 ---
 
@@ -744,46 +459,7 @@ Based on PPRA verification and research:
 
 ### Dependency Map
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         CRITICAL DEPENDENCIES                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│                     ┌─────────────────────┐                                │
-│                     │  OPERATING PARTNER  │                                │
-│                     │  (PPRA, Trust A/C)  │                                │
-│                     └──────────┬──────────┘                                │
-│                                │                                            │
-│              Everything depends on this                                     │
-│                                │                                            │
-│         ┌──────────────────────┼──────────────────────┐                    │
-│         │                      │                      │                    │
-│         ▼                      ▼                      ▼                    │
-│   ┌───────────┐         ┌───────────┐         ┌───────────┐               │
-│   │ JV Entity │         │Deal Flow  │         │Operations │               │
-│   │ Setup     │         │Pipeline   │         │Capability │               │
-│   └─────┬─────┘         └─────┬─────┘         └─────┬─────┘               │
-│         │                     │                     │                      │
-│         │                     ▼                     │                      │
-│         │              ┌───────────┐               │                      │
-│         │              │Properties │               │                      │
-│         │              │Under Mgmt │               │                      │
-│         │              └─────┬─────┘               │                      │
-│         │                    │                     │                      │
-│         │                    ▼                     │                      │
-│         │              ┌───────────┐               │                      │
-│         │              │  REVENUE  │◀──────────────┘                      │
-│         │              └───────────┘                                       │
-│         │                                                                   │
-│         └──────────────────────────────────────────────────────────────────│
-│                                                                             │
-│   SECONDARY DEPENDENCIES                                                   │
-│   ──────────────────────                                                   │
-│   Platform MVP → Differentiation → Customer acquisition                    │
-│   Marketing → Investor pipeline → Properties under management              │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+<img src="diagrams/10-dependencies.svg" alt="Critical Dependencies" width="100%">
 
 ---
 

@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Competitive Advantages</text>
+  <rect x="100" y="120" width="440" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Why Keystay wins against each competitor</text>
+
+  <!-- vs IGrow -->
+  <rect x="100" y="220" width="840" height="350" fill="#1E293B" rx="16"/>
+  <rect x="100" y="220" width="840" height="70" fill="#EF4444" fill-opacity="0.2" rx="16"/>
+  <rect x="100" y="280" width="840" height="10" fill="#1E293B"/>
+  <text x="520" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#EF4444" text-anchor="middle">vs IGrow</text>
+  <text x="130" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Their problem → Our solution</text>
+
+  <circle cx="150" cy="380" r="8" fill="#14B8A6"/>
+  <text x="175" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">No lock-in</text>
+  <text x="175" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Your property, your choice. Switch anytime.</text>
+
+  <circle cx="150" cy="450" r="8" fill="#14B8A6"/>
+  <text x="175" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Transparent fees</text>
+  <text x="175" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Know what you pay, when, and why.</text>
+
+  <circle cx="150" cy="520" r="8" fill="#14B8A6"/>
+  <text x="175" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Real-time communication</text>
+  <text x="175" y="540" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Dashboard + proactive updates, not radio silence.</text>
+
+  <!-- vs EasyProperties -->
+  <rect x="980" y="220" width="840" height="350" fill="#1E293B" rx="16"/>
+  <rect x="980" y="220" width="840" height="70" fill="#8B5CF6" fill-opacity="0.2" rx="16"/>
+  <rect x="980" y="280" width="840" height="10" fill="#1E293B"/>
+  <text x="1400" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#8B5CF6" text-anchor="middle">vs EasyProperties</text>
+  <text x="1010" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Their problem → Our solution</text>
+
+  <circle cx="1030" cy="380" r="8" fill="#14B8A6"/>
+  <text x="1055" y="375" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">REAL ownership</text>
+  <text x="1055" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Title deed in your name, not shares in a company.</text>
+
+  <circle cx="1030" cy="450" r="8" fill="#14B8A6"/>
+  <text x="1055" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Liquid exit</text>
+  <text x="1055" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Sell your property anytime, not auction calendar.</text>
+
+  <circle cx="1030" cy="520" r="8" fill="#14B8A6"/>
+  <text x="1055" y="515" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Full or fractional</text>
+  <text x="1055" y="540" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Choose your entry point and ownership level.</text>
+
+  <!-- vs Mafadi -->
+  <rect x="100" y="600" width="840" height="350" fill="#1E293B" rx="16"/>
+  <rect x="100" y="600" width="840" height="70" fill="#F59E0B" fill-opacity="0.2" rx="16"/>
+  <rect x="100" y="660" width="840" height="10" fill="#1E293B"/>
+  <text x="520" y="648" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F59E0B" text-anchor="middle">vs Mafadi</text>
+  <text x="130" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Their problem → Our solution</text>
+
+  <circle cx="150" cy="760" r="8" fill="#14B8A6"/>
+  <text x="175" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Technology-enabled</text>
+  <text x="175" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Modern platform, not Excel spreadsheets.</text>
+
+  <circle cx="150" cy="830" r="8" fill="#14B8A6"/>
+  <text x="175" y="825" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Proactive service</text>
+  <text x="175" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Not reactive "spaza shop" operations.</text>
+
+  <circle cx="150" cy="900" r="8" fill="#14B8A6"/>
+  <text x="175" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Investor sourcing</text>
+  <text x="175" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">They only manage. We source + manage.</text>
+
+  <!-- vs Traditional Agents -->
+  <rect x="980" y="600" width="840" height="350" fill="#1E293B" rx="16"/>
+  <rect x="980" y="600" width="840" height="70" fill="#64748B" fill-opacity="0.3" rx="16"/>
+  <rect x="980" y="660" width="840" height="10" fill="#1E293B"/>
+  <text x="1400" y="648" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#9CA3AF" text-anchor="middle">vs Traditional Agents</text>
+  <text x="1010" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Their problem → Our solution</text>
+
+  <circle cx="1030" cy="760" r="8" fill="#14B8A6"/>
+  <text x="1055" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">End-to-end relationship</text>
+  <text x="1055" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Purchase to passive income, not sell and disappear.</text>
+
+  <circle cx="1030" cy="830" r="8" fill="#14B8A6"/>
+  <text x="1055" y="825" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Ongoing support</text>
+  <text x="1055" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">We're with you for the lifetime of ownership.</text>
+
+  <circle cx="1030" cy="900" r="8" fill="#14B8A6"/>
+  <text x="1055" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Property management</text>
+  <text x="1055" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">They only sell. We sell + manage.</text>
+
+  <!-- Footer -->
+  <text x="1820" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">Competitive Advantages</text>
+</svg>

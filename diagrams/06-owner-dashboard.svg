@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Owner Dashboard</text>
+  <rect x="100" y="120" width="340" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Real-time visibility into your portfolio</text>
+
+  <!-- Dashboard mockup frame -->
+  <rect x="100" y="220" width="1720" height="780" fill="#0F172A" rx="16" stroke="#475569" stroke-width="2"/>
+
+  <!-- Browser bar -->
+  <rect x="100" y="220" width="1720" height="50" fill="#1E293B" rx="16"/>
+  <rect x="100" y="250" width="1720" height="20" fill="#1E293B"/>
+  <circle cx="140" cy="245" r="8" fill="#EF4444"/>
+  <circle cx="170" cy="245" r="8" fill="#F59E0B"/>
+  <circle cx="200" cy="245" r="8" fill="#22C55E"/>
+  <text x="960" y="252" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">app.keystay.co.za/dashboard</text>
+
+  <!-- Row 1: Three feature cards -->
+  <rect x="150" y="300" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="150" y="300" width="520" height="60" fill="#14B8A6" fill-opacity="0.2" rx="12"/>
+  <rect x="150" y="350" width="520" height="10" fill="#1E293B"/>
+  <text x="180" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Portfolio View</text>
+  <text x="180" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">All properties at a glance</text>
+  <circle cx="195" cy="440" r="5" fill="#14B8A6"/>
+  <text x="215" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Property cards with status</text>
+  <circle cx="195" cy="475" r="5" fill="#14B8A6"/>
+  <text x="215" y="483" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Tenant information</text>
+  <circle cx="195" cy="510" r="5" fill="#14B8A6"/>
+  <text x="215" y="518" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Quick actions</text>
+  <circle cx="195" cy="545" r="5" fill="#14B8A6"/>
+  <text x="215" y="553" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Lease expiry alerts</text>
+
+  <rect x="700" y="300" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="700" y="300" width="520" height="60" fill="#22C55E" fill-opacity="0.2" rx="12"/>
+  <rect x="700" y="350" width="520" height="10" fill="#1E293B"/>
+  <text x="730" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#22C55E">Income Tracking</text>
+  <text x="730" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">See where your money goes</text>
+  <circle cx="745" cy="440" r="5" fill="#22C55E"/>
+  <text x="765" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Rent received</text>
+  <circle cx="745" cy="475" r="5" fill="#22C55E"/>
+  <text x="765" y="483" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Expenses breakdown</text>
+  <circle cx="745" cy="510" r="5" fill="#22C55E"/>
+  <text x="765" y="518" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Net income per property</text>
+  <circle cx="745" cy="545" r="5" fill="#22C55E"/>
+  <text x="765" y="553" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Historical trends</text>
+
+  <rect x="1250" y="300" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="1250" y="300" width="520" height="60" fill="#3B82F6" fill-opacity="0.2" rx="12"/>
+  <rect x="1250" y="350" width="520" height="10" fill="#1E293B"/>
+  <text x="1280" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#3B82F6">Performance</text>
+  <text x="1280" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Actual vs projected yield</text>
+  <circle cx="1295" cy="440" r="5" fill="#3B82F6"/>
+  <text x="1315" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Yield calculations</text>
+  <circle cx="1295" cy="475" r="5" fill="#3B82F6"/>
+  <text x="1315" y="483" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Benchmark comparisons</text>
+  <circle cx="1295" cy="510" r="5" fill="#3B82F6"/>
+  <text x="1315" y="518" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Vacancy impact</text>
+  <circle cx="1295" cy="545" r="5" fill="#3B82F6"/>
+  <text x="1315" y="553" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">ROI tracking</text>
+
+  <!-- Row 2: Three more feature cards -->
+  <rect x="150" y="610" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="150" y="610" width="520" height="60" fill="#F59E0B" fill-opacity="0.2" rx="12"/>
+  <rect x="150" y="660" width="520" height="10" fill="#1E293B"/>
+  <text x="180" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#F59E0B">Tax Reporting</text>
+  <text x="180" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Tax-ready documentation</text>
+  <circle cx="195" cy="750" r="5" fill="#F59E0B"/>
+  <text x="215" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Annual summaries</text>
+  <circle cx="195" cy="785" r="5" fill="#F59E0B"/>
+  <text x="215" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Deductible expenses</text>
+  <circle cx="195" cy="820" r="5" fill="#F59E0B"/>
+  <text x="215" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">IRP5 integration</text>
+  <circle cx="195" cy="855" r="5" fill="#F59E0B"/>
+  <text x="215" y="863" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Export to accountant</text>
+
+  <rect x="700" y="610" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="700" y="610" width="520" height="60" fill="#EC4899" fill-opacity="0.2" rx="12"/>
+  <rect x="700" y="660" width="520" height="10" fill="#1E293B"/>
+  <text x="730" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#EC4899">Maintenance</text>
+  <text x="730" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Track repairs and costs</text>
+  <circle cx="745" cy="750" r="5" fill="#EC4899"/>
+  <text x="765" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Job history</text>
+  <circle cx="745" cy="785" r="5" fill="#EC4899"/>
+  <text x="765" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Pending requests</text>
+  <circle cx="745" cy="820" r="5" fill="#EC4899"/>
+  <text x="765" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Cost tracking</text>
+  <circle cx="745" cy="855" r="5" fill="#EC4899"/>
+  <text x="765" y="863" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Approve quotes</text>
+
+  <rect x="1250" y="610" width="520" height="280" fill="#1E293B" rx="12"/>
+  <rect x="1250" y="610" width="520" height="60" fill="#8B5CF6" fill-opacity="0.2" rx="12"/>
+  <rect x="1250" y="660" width="520" height="10" fill="#1E293B"/>
+  <text x="1280" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#8B5CF6">Documents</text>
+  <text x="1280" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Everything in one place</text>
+  <circle cx="1295" cy="750" r="5" fill="#8B5CF6"/>
+  <text x="1315" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Lease agreements</text>
+  <circle cx="1295" cy="785" r="5" fill="#8B5CF6"/>
+  <text x="1315" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Monthly statements</text>
+  <circle cx="1295" cy="820" r="5" fill="#8B5CF6"/>
+  <text x="1315" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Compliance certificates</text>
+  <circle cx="1295" cy="855" r="5" fill="#8B5CF6"/>
+  <text x="1315" y="863" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Title deeds</text>
+
+  <!-- Ampersand contribution note -->
+  <text x="960" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#14B8A6" text-anchor="middle">This is Ampersand's core contribution — the technology layer that differentiates Keystay</text>
+
+  <!-- Footer -->
+  <text x="1820" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">Owner Dashboard</text>
+</svg>

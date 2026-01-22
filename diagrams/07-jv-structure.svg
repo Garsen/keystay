@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Joint Venture Structure</text>
+  <rect x="100" y="120" width="420" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Two partners, complementary capabilities</text>
+
+  <!-- Ampersand box -->
+  <rect x="100" y="240" width="800" height="480" fill="#14B8A6" fill-opacity="0.1" rx="20" stroke="#14B8A6" stroke-width="3"/>
+  <rect x="100" y="240" width="800" height="80" fill="#14B8A6" fill-opacity="0.3" rx="20"/>
+  <rect x="100" y="310" width="800" height="10" fill="#0F172A" fill-opacity="0.5"/>
+  <text x="500" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">AMPERSAND INSIGHTS</text>
+  <rect x="400" y="250" width="80" height="30" fill="#14B8A6" rx="4"/>
+  <text x="440" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">50%</text>
+
+  <text x="150" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Brings:</text>
+  <circle cx="170" cy="420" r="6" fill="#14B8A6"/>
+  <text x="195" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Technology platform</text>
+  <circle cx="170" cy="460" r="6" fill="#14B8A6"/>
+  <text x="195" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Systems &amp; processes</text>
+  <circle cx="170" cy="500" r="6" fill="#14B8A6"/>
+  <text x="195" y="508" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Customer acquisition</text>
+  <circle cx="170" cy="540" r="6" fill="#14B8A6"/>
+  <text x="195" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Strategy &amp; positioning</text>
+
+  <text x="500" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Focus:</text>
+  <circle cx="520" cy="420" r="6" fill="#14B8A6"/>
+  <text x="545" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Owner dashboard</text>
+  <circle cx="520" cy="460" r="6" fill="#14B8A6"/>
+  <text x="545" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Marketing &amp; leads</text>
+  <circle cx="520" cy="500" r="6" fill="#14B8A6"/>
+  <text x="545" y="508" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Reporting &amp; analytics</text>
+  <circle cx="520" cy="540" r="6" fill="#14B8A6"/>
+  <text x="545" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Business development</text>
+
+  <!-- Shared costs note -->
+  <rect x="150" y="620" width="700" height="70" fill="#14B8A6" fill-opacity="0.15" rx="8"/>
+  <text x="500" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF" text-anchor="middle">Contributes to shared startup costs (self-funded)</text>
+
+  <!-- Operating Partner box -->
+  <rect x="1020" y="240" width="800" height="480" fill="#22C55E" fill-opacity="0.1" rx="20" stroke="#22C55E" stroke-width="3"/>
+  <rect x="1020" y="240" width="800" height="80" fill="#22C55E" fill-opacity="0.3" rx="20"/>
+  <rect x="1020" y="310" width="800" height="10" fill="#0F172A" fill-opacity="0.5"/>
+  <text x="1420" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" text-anchor="middle">OPERATING PARTNER</text>
+  <rect x="1320" y="250" width="80" height="30" fill="#22C55E" rx="4"/>
+  <text x="1360" y="272" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">50%</text>
+
+  <text x="1070" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#22C55E">Brings:</text>
+  <circle cx="1090" cy="420" r="6" fill="#22C55E"/>
+  <text x="1115" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">PPRA registration</text>
+  <circle cx="1090" cy="460" r="6" fill="#22C55E"/>
+  <text x="1115" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Trust account</text>
+  <circle cx="1090" cy="500" r="6" fill="#22C55E"/>
+  <text x="1115" y="508" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Deal flow / pipeline</text>
+  <circle cx="1090" cy="540" r="6" fill="#22C55E"/>
+  <text x="1115" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Contractor networks</text>
+
+  <text x="1420" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#22C55E">Focus:</text>
+  <circle cx="1440" cy="420" r="6" fill="#22C55E"/>
+  <text x="1465" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Property sourcing</text>
+  <circle cx="1440" cy="460" r="6" fill="#22C55E"/>
+  <text x="1465" y="468" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Tenant placement</text>
+  <circle cx="1440" cy="500" r="6" fill="#22C55E"/>
+  <text x="1465" y="508" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Property management</text>
+  <circle cx="1440" cy="540" r="6" fill="#22C55E"/>
+  <text x="1465" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Compliance</text>
+
+  <!-- Shared costs note -->
+  <rect x="1070" y="620" width="700" height="70" fill="#22C55E" fill-opacity="0.15" rx="8"/>
+  <text x="1420" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF" text-anchor="middle">Contributes to shared startup costs (self-funded)</text>
+
+  <!-- Center connection -->
+  <line x1="900" y1="480" x2="1020" y2="480" stroke="url(#accentGradient)" stroke-width="4" stroke-dasharray="10,5"/>
+
+  <!-- JV Entity box -->
+  <rect x="660" y="780" width="600" height="180" fill="#1E293B" rx="16" stroke="url(#accentGradient)" stroke-width="3"/>
+  <text x="960" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle">KEYSTAY (PTY) LTD</text>
+  <text x="960" y="900" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF" text-anchor="middle">Equal equity, shared governance</text>
+  <text x="960" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#14B8A6" text-anchor="middle">Bootstrapped • Self-funded • No external investors</text>
+
+  <!-- Arrows to JV -->
+  <line x1="500" y1="720" x2="750" y2="780" stroke="#14B8A6" stroke-width="3"/>
+  <line x1="1420" y1="720" x2="1170" y2="780" stroke="#22C55E" stroke-width="3"/>
+
+  <!-- Footer -->
+  <text x="1820" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">JV Structure</text>
+</svg>

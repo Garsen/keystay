@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Critical Dependencies</text>
+  <rect x="100" y="120" width="400" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Everything depends on the operating partner</text>
+
+  <!-- Central dependency: Operating Partner -->
+  <rect x="660" y="200" width="600" height="140" fill="#EF4444" fill-opacity="0.2" rx="20" stroke="#EF4444" stroke-width="4"/>
+  <text x="960" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle">OPERATING PARTNER</text>
+  <text x="960" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#EF4444" text-anchor="middle">PPRA Registration + Trust Account</text>
+
+  <!-- "Everything depends on this" label -->
+  <text x="960" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF" text-anchor="middle">Everything depends on this</text>
+  <line x1="960" y1="395" x2="960" y2="440" stroke="#EF4444" stroke-width="3"/>
+
+  <!-- Three branches -->
+  <line x1="960" y1="440" x2="400" y2="520" stroke="#14B8A6" stroke-width="3"/>
+  <line x1="960" y1="440" x2="960" y2="520" stroke="#22C55E" stroke-width="3"/>
+  <line x1="960" y1="440" x2="1520" y2="520" stroke="#3B82F6" stroke-width="3"/>
+
+  <!-- JV Entity Setup -->
+  <rect x="200" y="520" width="400" height="120" fill="#14B8A6" fill-opacity="0.15" rx="16" stroke="#14B8A6" stroke-width="2"/>
+  <text x="400" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6" text-anchor="middle">JV Entity Setup</text>
+  <text x="400" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Legal structure, contracts, compliance</text>
+
+  <!-- Deal Flow Pipeline -->
+  <rect x="760" y="520" width="400" height="120" fill="#22C55E" fill-opacity="0.15" rx="16" stroke="#22C55E" stroke-width="2"/>
+  <text x="960" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#22C55E" text-anchor="middle">Deal Flow Pipeline</text>
+  <text x="960" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Property sourcing capability</text>
+
+  <!-- Operations Capability -->
+  <rect x="1320" y="520" width="400" height="120" fill="#3B82F6" fill-opacity="0.15" rx="16" stroke="#3B82F6" stroke-width="2"/>
+  <text x="1520" y="570" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#3B82F6" text-anchor="middle">Operations Capability</text>
+  <text x="1520" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Management, maintenance, tenants</text>
+
+  <!-- Properties Under Management -->
+  <line x1="960" y1="640" x2="960" y2="700" stroke="#22C55E" stroke-width="3"/>
+  <rect x="710" y="700" width="500" height="100" fill="#1E293B" rx="16" stroke="#22C55E" stroke-width="2"/>
+  <text x="960" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">Properties Under Management</text>
+  <text x="960" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">The core metric</text>
+
+  <!-- Revenue -->
+  <line x1="960" y1="800" x2="960" y2="860" stroke="#14B8A6" stroke-width="3"/>
+  <line x1="1520" y1="640" x2="1520" y2="730" stroke="#3B82F6" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="1520" y1="730" x2="1210" y2="880" stroke="#3B82F6" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <rect x="710" y="860" width="500" height="120" fill="#14B8A6" fill-opacity="0.2" rx="16" stroke="#14B8A6" stroke-width="3"/>
+  <text x="960" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">REVENUE</text>
+  <text x="960" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">Sourcing + Placement + Management + Maintenance</text>
+
+  <!-- Secondary dependencies box -->
+  <rect x="100" y="700" width="500" height="280" fill="#1E293B" rx="16"/>
+  <text x="130" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Secondary Dependencies</text>
+  <text x="130" y="790" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">(Ampersand's contribution)</text>
+
+  <circle cx="150" cy="840" r="6" fill="#14B8A6"/>
+  <text x="175" y="848" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Platform MVP → Differentiation</text>
+
+  <circle cx="150" cy="880" r="6" fill="#14B8A6"/>
+  <text x="175" y="888" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Marketing → Investor pipeline</text>
+
+  <circle cx="150" cy="920" r="6" fill="#14B8A6"/>
+  <text x="175" y="928" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Customer acquisition → Properties</text>
+
+  <!-- Key message -->
+  <rect x="1320" y="700" width="500" height="280" fill="#EF4444" fill-opacity="0.1" rx="16" stroke="#EF4444" stroke-width="2"/>
+  <text x="1570" y="770" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#EF4444" text-anchor="middle">Critical Path</text>
+  <text x="1350" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Secure operating partner FIRST.</text>
+  <text x="1350" y="870" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Everything else flows from there.</text>
+  <text x="1350" y="930" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Without PPRA registration,</text>
+  <text x="1350" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Keystay cannot legally operate.</text>
+
+  <!-- Footer -->
+  <text x="1820" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">Critical Dependencies</text>
+</svg>
