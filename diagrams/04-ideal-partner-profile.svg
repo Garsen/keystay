@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Ideal Partner Profile</text>
+  <rect x="100" y="120" width="380" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">What we need from an operating partner</text>
+
+  <!-- MUST HAVE section -->
+  <rect x="100" y="220" width="850" height="480" fill="#1E293B" rx="16"/>
+  <rect x="100" y="220" width="850" height="70" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="280" width="850" height="10" fill="#1E293B"/>
+  <text x="525" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#FFFFFF" text-anchor="middle">MUST HAVE (Non-Negotiable)</text>
+
+  <!-- Must have items -->
+  <rect x="130" y="310" width="40" height="40" fill="#14B8A6" rx="8"/>
+  <text x="150" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="190" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">PPRA registered with valid Fidelity Fund Certificate</text>
+  <text x="190" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Cannot legally operate without this — regulatory requirement</text>
+
+  <rect x="130" y="400" width="40" height="40" fill="#14B8A6" rx="8"/>
+  <text x="150" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="190" y="430" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Trust account with IRBA auditor appointed</text>
+  <text x="190" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Required for rent, deposits, and transaction funds</text>
+
+  <rect x="130" y="490" width="40" height="40" fill="#14B8A6" rx="8"/>
+  <text x="150" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="190" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Current financial reports (2024/2025)</text>
+  <text x="190" y="550" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Indicates active compliance, not lapsed registration</text>
+
+  <rect x="130" y="580" width="40" height="40" fill="#14B8A6" rx="8"/>
+  <text x="150" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="190" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Property management operational capability</text>
+  <text x="190" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Staff, systems, contractor networks for day-to-day operations</text>
+
+  <rect x="130" y="670" width="40" height="40" fill="#14B8A6" rx="8"/>
+  <text x="150" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="190" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Minimum 5 years industry experience</text>
+  <text x="190" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Established credibility and proven track record</text>
+
+  <!-- STRONG PREFERENCE section -->
+  <rect x="970" y="220" width="850" height="480" fill="#1E293B" rx="16"/>
+  <rect x="970" y="220" width="850" height="70" fill="#22C55E" fill-opacity="0.3" rx="16"/>
+  <rect x="970" y="280" width="850" height="10" fill="#1E293B"/>
+  <text x="1395" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600" fill="#22C55E" text-anchor="middle">STRONG PREFERENCE</text>
+
+  <!-- Strong preference items -->
+  <circle cx="1010" cy="330" r="8" fill="#22C55E"/>
+  <text x="1035" y="338" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">National capability OR willingness to build partner network</text>
+  <text x="1035" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Can operate beyond Gauteng — Cape Town, KZN, coastal regions</text>
+
+  <circle cx="1010" cy="410" r="8" fill="#22C55E"/>
+  <text x="1035" y="418" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">50-500 properties under management</text>
+  <text x="1035" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Big enough to be credible, small enough to need what we bring</text>
+
+  <circle cx="1010" cy="490" r="8" fill="#22C55E"/>
+  <text x="1035" y="498" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Low technology capability</text>
+  <text x="1035" y="528" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Won't try to build platform themselves — needs Ampersand</text>
+
+  <circle cx="1010" cy="570" r="8" fill="#22C55E"/>
+  <text x="1035" y="578" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Limited investor acquisition pipeline</text>
+  <text x="1035" y="608" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Sees investor sourcing as new revenue stream</text>
+
+  <circle cx="1010" cy="650" r="8" fill="#22C55E"/>
+  <text x="1035" y="658" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Owner-operated or small principal team</text>
+  <text x="1035" y="688" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Can make partnership decisions quickly, not corporate bureaucracy</text>
+
+  <!-- DO NOT WANT section -->
+  <rect x="100" y="720" width="1720" height="200" fill="#EF4444" fill-opacity="0.08" rx="16" stroke="#EF4444" stroke-width="1"/>
+  <text x="130" y="770" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#EF4444">DO NOT WANT</text>
+
+  <text x="130" y="820" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="130" dy="0">Tech-savvy founders</tspan>
+    <tspan fill="#64748B"> — will take idea and build themselves</tspan>
+  </text>
+  <text x="130" y="855" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="130" dy="0">Already vertically integrated</tspan>
+    <tspan fill="#64748B"> — don't need us (e.g., IGrow)</tspan>
+  </text>
+  <text x="130" y="890" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="130" dy="0">Very large corporates (10,000+ units)</tspan>
+    <tspan fill="#64748B"> — too slow, won't prioritise JV</tspan>
+  </text>
+
+  <text x="750" y="820" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="750" dy="0">Pure sales agents (no management)</tspan>
+    <tspan fill="#64748B"> — no operational capability</tspan>
+  </text>
+  <text x="750" y="855" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="750" dy="0">Bad reputation / compliance issues</tspan>
+    <tspan fill="#64748B"> — liability, taints Keystay brand</tspan>
+  </text>
+  <text x="750" y="890" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">
+    <tspan x="750" dy="0">Unwilling to consider partner network</tspan>
+    <tspan fill="#64748B"> — limits growth potential</tspan>
+  </text>
+
+  <!-- Priority prospects -->
+  <rect x="1350" y="755" width="450" height="150" fill="#1E293B" rx="12"/>
+  <text x="1380" y="795" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Priority Prospects</text>
+  <text x="1380" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#14B8A6">#1 Fitzanne Estates</text>
+  <text x="1560" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">43 yrs, 6k units</text>
+  <text x="1380" y="865" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#22C55E">#2 Pro Admin</text>
+  <text x="1560" y="865" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">36 yrs, 19k units, national</text>
+  <text x="1380" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#3B82F6">#3 Pretor Property</text>
+  <text x="1560" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">65 yrs, 140+ staff</text>
+
+  <!-- Bottom message -->
+  <rect x="100" y="940" width="1720" height="80" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="990" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">The right partner turns Keystay from a business plan into a business.</text>
+
+  <!-- Footer -->
+  <text x="100" y="1060" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">KEYSTAY</text>
+  <text x="1820" y="1060" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">Ideal Partner Profile</text>
+</svg>

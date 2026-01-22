@@ -1,0 +1,116 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Decorative nodes -->
+  <circle cx="1750" cy="200" r="5" fill="#14B8A6" opacity="0.4"/>
+  <circle cx="1700" cy="250" r="3" fill="#22C55E" opacity="0.3"/>
+  <circle cx="1800" cy="180" r="4" fill="#3B82F6" opacity="0.3"/>
+
+  <!-- Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Partner Network Model</text>
+  <rect x="100" y="120" width="420" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">National expansion through licensed affiliates</text>
+
+  <!-- Central HQ Box -->
+  <rect x="710" y="220" width="500" height="200" fill="#14B8A6" fill-opacity="0.15" rx="20" stroke="#14B8A6" stroke-width="3"/>
+  <text x="960" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle">KEYSTAY HQ</text>
+  <text x="960" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#14B8A6" text-anchor="middle">Ampersand + Operating Partner JV</text>
+  <line x1="780" y1="350" x2="1140" y2="350" stroke="#14B8A6" stroke-width="1" opacity="0.5"/>
+  <text x="960" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF" text-anchor="middle">Platform | Brand | Marketing | Standards</text>
+
+  <!-- Connection lines from HQ -->
+  <line x1="820" y1="420" x2="350" y2="550" stroke="#14B8A6" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="960" y1="420" x2="960" y2="550" stroke="#22C55E" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="1100" y1="420" x2="1570" y2="550" stroke="#3B82F6" stroke-width="2" stroke-dasharray="8,4"/>
+
+  <!-- Gauteng Partner (JV) -->
+  <rect x="100" y="550" width="500" height="280" fill="#1E293B" rx="16"/>
+  <rect x="100" y="550" width="500" height="70" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="610" width="500" height="10" fill="#1E293B"/>
+  <text x="350" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">GAUTENG (JV Partner)</text>
+  <rect x="120" y="640" width="120" height="30" fill="#14B8A6" rx="4"/>
+  <text x="180" y="662" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">50% EQUITY</text>
+  <text x="130" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Operating partner brings:</text>
+  <circle cx="150" cy="750" r="5" fill="#14B8A6"/>
+  <text x="170" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">PPRA registration + Trust A/C</text>
+  <circle cx="150" cy="785" r="5" fill="#14B8A6"/>
+  <text x="170" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Deal flow + Operations</text>
+  <circle cx="150" cy="820" r="5" fill="#14B8A6"/>
+  <text x="170" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">R250k seed capital</text>
+
+  <!-- Cape Town Affiliate -->
+  <rect x="710" y="550" width="500" height="280" fill="#1E293B" rx="16"/>
+  <rect x="710" y="550" width="500" height="70" fill="url(#greenGradient)" rx="16"/>
+  <rect x="710" y="610" width="500" height="10" fill="#1E293B"/>
+  <text x="960" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">CAPE TOWN (Affiliate)</text>
+  <rect x="730" y="640" width="130" height="30" fill="#22C55E" rx="4"/>
+  <text x="795" y="662" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">FEE-BASED</text>
+  <text x="740" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Affiliate receives:</text>
+  <circle cx="760" cy="750" r="5" fill="#22C55E"/>
+  <text x="780" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Keystay platform access</text>
+  <circle cx="760" cy="785" r="5" fill="#22C55E"/>
+  <text x="780" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Brand + national marketing</text>
+  <circle cx="760" cy="820" r="5" fill="#22C55E"/>
+  <text x="780" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Investor leads from campaigns</text>
+
+  <!-- KZN Affiliate -->
+  <rect x="1320" y="550" width="500" height="280" fill="#1E293B" rx="16"/>
+  <rect x="1320" y="550" width="500" height="70" fill="url(#blueGradient)" rx="16"/>
+  <rect x="1320" y="610" width="500" height="10" fill="#1E293B"/>
+  <text x="1570" y="598" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">KZN / COASTAL (Affiliate)</text>
+  <rect x="1340" y="640" width="130" height="30" fill="#3B82F6" rx="4"/>
+  <text x="1405" y="662" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">FEE-BASED</text>
+  <text x="1350" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Affiliate contributes:</text>
+  <circle cx="1370" cy="750" r="5" fill="#3B82F6"/>
+  <text x="1390" y="758" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Local PPRA registration</text>
+  <circle cx="1370" cy="785" r="5" fill="#3B82F6"/>
+  <text x="1390" y="793" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Regional deal flow</text>
+  <circle cx="1370" cy="820" r="5" fill="#3B82F6"/>
+  <text x="1390" y="828" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Platform licence fee (% rev)</text>
+
+  <!-- Partner requirement box -->
+  <rect x="100" y="880" width="850" height="140" fill="#14B8A6" fill-opacity="0.08" rx="12" stroke="#14B8A6" stroke-width="1"/>
+  <text x="130" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Critical Partner Requirement</text>
+  <text x="130" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Operating partner must be receptive to building a national affiliate network.</text>
+  <text x="130" y="995" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Scale requires geographic expansion beyond Gauteng — Cape Town, KZN, Garden Route, mountains.</text>
+
+  <!-- Expansion regions -->
+  <rect x="1000" y="880" width="820" height="140" fill="#1E293B" rx="12"/>
+  <text x="1030" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Expansion Regions</text>
+  <circle cx="1050" cy="960" r="6" fill="#14B8A6"/>
+  <text x="1070" y="968" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Cape Town — Tourism, Airbnb potential</text>
+  <circle cx="1050" cy="995" r="6" fill="#22C55E"/>
+  <text x="1070" y="1003" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">KZN — Coastal holiday rentals</text>
+  <circle cx="1400" cy="960" r="6" fill="#3B82F6"/>
+  <text x="1420" y="968" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Garden Route — Tourism hotspot</text>
+  <circle cx="1400" cy="995" r="6" fill="#64748B"/>
+  <text x="1420" y="1003" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Mountain regions — Seasonal STR</text>
+
+  <!-- Footer -->
+  <text x="100" y="1060" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">KEYSTAY</text>
+  <text x="1820" y="1060" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">Partner Network</text>
+</svg>

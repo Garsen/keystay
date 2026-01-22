@@ -413,36 +413,37 @@ All revenue split 50/50 after direct costs. Simpler to manage.
 
 ---
 
-## Investment Required
+## Startup Costs (Self-Funded)
 
-### Seed Capital (Year 1)
+This is a **bootstrapped venture** — both partners contribute their own capital. No external funding.
 
-| Category | Amount | Notes |
-|----------|--------|-------|
-| Platform Development | R150,000 | MVP dashboard |
-| Legal/Compliance | R50,000 | JV setup, contracts |
-| Marketing | R100,000 | Website, initial ads |
-| Working Capital | R200,000 | 12 months runway |
-| **Total** | **R500,000** | Split 50/50 = R250k each |
+### Estimated Startup Costs
 
-### Use of Funds
+| Category | Estimate | Priority | Notes |
+|----------|----------|----------|-------|
+| Platform MVP | R100k - R150k | P0 | Start lean, iterate based on feedback |
+| Legal/Compliance | R30k - R50k | P0 | JV entity, contracts, PPRA alignment |
+| Marketing | R50k - R100k | P1 | Website, initial content, campaigns |
+| Working Capital | Variable | P1 | Bridge until cash flow positive |
+
+### Why This Works Bootstrapped
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           SEED CAPITAL ALLOCATION                                │
+│                         CASH FLOW FROM DAY 1                                     │
 ├─────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                  │
-│   Platform Development       30%  ██████████████████████████████                │
-│   R150,000                                                                       │
+│   Property 1 closed:                                                            │
+│   • Sourcing fee (3% of R1M)                              R30,000               │
+│   • Placement fee (1 month rent)                           R8,000               │
+│   ─────────────────────────────────────────────────────────────────────────     │
+│   Immediate cash from first property:                     R38,000               │
 │                                                                                  │
-│   Working Capital            40%  ████████████████████████████████████████      │
-│   R200,000                                                                       │
+│   2 properties/month = R76,000/month in once-off fees                           │
+│   This covers fixed costs (R15k/month) almost immediately                       │
 │                                                                                  │
-│   Marketing                  20%  ████████████████████                          │
-│   R100,000                                                                       │
-│                                                                                  │
-│   Legal/Compliance           10%  ██████████                                    │
-│   R50,000                                                                        │
+│   The business is cash-generative from the start.                               │
+│   Startup capital is primarily for platform build + legal setup.                │
 │                                                                                  │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -475,7 +476,7 @@ All revenue split 50/50 after direct costs. Simpler to manage.
 ## Next Steps
 
 1. **Validate assumptions** with operating partner candidates
-2. **Test fee structure** with potential investors
+2. **Test fee structure** with target customers (property buyers)
 3. **Build financial model spreadsheet** for scenario planning
 4. **Define MVP scope** based on economics
 5. **Set up tracking** for key metrics from Day 1

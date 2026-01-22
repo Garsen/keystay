@@ -66,8 +66,8 @@
   <text x="370" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Breakeven (~40 properties)</text>
 
   <rect x="690" y="720" width="540" height="140" fill="#22C55E" fill-opacity="0.1" rx="12" stroke="#22C55E" stroke-width="2"/>
-  <text x="960" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#22C55E" text-anchor="middle">R1M</text>
-  <text x="960" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Seed funding required</text>
+  <text x="960" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#22C55E" text-anchor="middle">Self-Funded</text>
+  <text x="960" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle">Bootstrapped by both partners</text>
 
   <rect x="1280" y="720" width="540" height="140" fill="#3B82F6" fill-opacity="0.1" rx="12" stroke="#3B82F6" stroke-width="2"/>
   <text x="1550" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#3B82F6" text-anchor="middle">50/50</text>
